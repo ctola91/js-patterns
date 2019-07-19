@@ -19,12 +19,4 @@ export default class Singleton {
   getRandomNumber() {
     return Singleton.randomNumber;
   }
-
-  connect() {
-    console.log("Connected");
-  }
-
-  disconnect() {
-    console.log("disconnected");
-  }
 }
